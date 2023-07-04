@@ -1,0 +1,101 @@
+body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.central{
+    background-color: rgb(111, 34, 50);
+    border: 2px solid rgb(113, 133, 219);
+    width: 70%;
+    padding: 40px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+.central img{
+    width: 35%;
+    height: 100%;
+    margin:  0%;
+            }
+
+.juegos{
+    float: left;
+}            
+.desc{
+     border: 5px solid rgb(111, 34, 50);
+     background-color: rgb(103, 146, 146);
+     text-align: center;
+     font-size: 15px;
+     width: 350px;
+    height:240px;
+    flex-direction: row-reverse;
+ }
+ .juegos{
+    margin-top: 50%;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 20%;
+ }
+.image-1{ 
+    background-color:rgb(79, 79, 78);
+    border: 5px solid rgb(27, 22, 64);
+    top: 35%;
+    left: 10%;
+    position: absolute;
+    width: 350px;
+    height:340px; 
+
+}
+.image-2{
+    background-color:rgb(39, 39, 100) ;
+    border: 5px solid rgb(6, 26, 53);
+    top: 35%;
+    left: 40%;
+    position: absolute;   
+    width: 450px;
+    height:340px;   
+}
+
+
+.personal-4{
+    background-color: rgb(146, 204, 213);
+    border: 5px solid rgb(144, 94, 210);
+    top: 65%;
+    left: 36%;
+    width: 450px;
+    height:480px; 
+    position: absolute;
+}
+.imgpersonal{
+    position: absolute;
+    left: 20%;
+    top:2%;
+}
+.personal{
+    bottom: 0;
+    font-size: 17px;
+    padding-left: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 57%;
+}
+
+input{
+    top: 35%;
+    left: 70%;
+    position: absolute; 
+    height: 5%;
+    width: 5%;
+}
+h3{
+    font-size:medium;
+}
+/* coloco el texto a la izquierda de la imagen */
+img{
+    
+    float:left;
+}
+
+
+
